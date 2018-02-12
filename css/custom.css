@@ -7,3 +7,11 @@ Created:December 2014
 License URI:http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
+
+
+#logo_img {
+  background-image: url('../images/paulnelsonddslogo.png');
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}

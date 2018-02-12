@@ -6512,6 +6512,19 @@ header .container-fluid .animated.main-navigation .dropdown-menu .show .dropdown
   color: #ffffff;
 }
 
+.social-links.animated-effect-1 li.yelp a:hover {
+  border-color: #55acee;
+}
+
+.social-links:not(.animated-effect-1) li.yelp a:hover,
+.colored.social-links li.yelp a,
+.social-links.animated-effect-1 li.yelp a:after,
+.btn.yelp {
+  background-color: #55acee;
+  border-color: #55acee;
+  color: #ffffff;
+}
+
 .social-links.animated-effect-1 li.skype a:hover {
   border-color: #00aff0;
 }
@@ -8717,6 +8730,39 @@ h6.media-heading {
   margin: 0 5px;
   cursor: pointer;
 }
+
+/* CUSTOM CAROUSEL SETTINGS */
+
+.slide-image-1 {
+  width: 1920px;
+  height: 650px;
+  background-image: url('../images/office-pics/paul-and-susan-with-patient1.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slide-image-2 {
+  width: 1920px;
+  height: 650px;
+  background-image: url('../images/office-pics/paul-talking-with-patient5.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slide-image-3 {
+  width: 1920px;
+  height: 650px;
+  background-image: url('../images/office-pics/staff-laughing.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slide-image-4 {
+  width: 1920px;
+  height: 650px;
+  background-image: url('../images/office-pics/patients-waiting2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 
 /* 10 Full Page
 ----------------------------------------------------------------------------- */
